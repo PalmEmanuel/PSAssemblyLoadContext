@@ -2,7 +2,7 @@ $Configuration = 'Release'
 $DotNetVersion = 'net5.0'
 
 # Define build output locations
-$OutDir = "C:\Temp\AzBlobConflict\output"
+$OutDir = "$PSScriptRoot\output"
 $OutDependencies = "$OutDir\dependencies"
 
 # Build both Core and PS projects
